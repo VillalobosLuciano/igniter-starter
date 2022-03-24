@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@portabletext/react": "^1.0.3",
+    "@sanity/webhook": "^1.0.2",
     "clsx": "^1.1.1",
     "framer-motion": "^6.0.0",
     "next": "^12.0.10",
