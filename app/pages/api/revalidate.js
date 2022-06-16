@@ -62,7 +62,7 @@ export default async function revalidate(req, res) {
 //   message: string;
 // };
 
-// const secret = process.env.SANITY_WEBHOOK_SECRET!;
+// const secret = process.env.SANITY_STUDIO_REVALIDATE_SECRET!;
 
 // export default async function handler(
 //   req: NextApiRequest,

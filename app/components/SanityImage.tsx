@@ -3,12 +3,13 @@ import { useState, useEffect } from "react";
 import clsx from "clsx";
 import imageUrlBuilder from "@sanity/image-url";
 import { sanityClient } from "../lib/sanity.server";
+import { urlForImage } from "../lib/sanity";
 
-const builder = imageUrlBuilder(sanityClient);
+// const builder = imageUrlBuilder(sanityClient);
 
-function urlFor(source: string) {
-  return builder.image(source);
-}
+// function urlFor(source: string) {
+//   return builder.image(source);
+// }
 
 const filters = [
   {
@@ -43,7 +44,7 @@ export default function SanityImage(props: any) {
     <>
       <Image
         {...props}
-        src={urlFor(props.src)
+        src={urlForImage(props.src)
           .width(props.width)
           .height(props.height)
           .auto("format")
