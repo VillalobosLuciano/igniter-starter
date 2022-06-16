@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import Layout from "../../components/Layout";
@@ -36,7 +36,7 @@ export default function Service({ data = {}, preview }) {
         ) : (
           <>
             <article>
-              <Head>
+              {/* <Head>
                 <title>{service.title}</title>
                 {service.coverImage && (
                   <meta
@@ -49,7 +49,7 @@ export default function Service({ data = {}, preview }) {
                       .url()}
                   />
                 )}
-              </Head>
+              </Head> */}
               <div className="mx-auto my-12 max-w-7xl sm:px-6 lg:px-8">
                 <h1 className="text-4xl font-semibold text-gray-700 dark:text-gray-300">
                   {service.title}
