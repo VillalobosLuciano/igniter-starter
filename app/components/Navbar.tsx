@@ -14,7 +14,7 @@ export default function Navbar() {
           router.push("/");
         }}
       >
-        <Logo />
+        <Logo className="" />
       </div>
       <div className="flex items-center space-x-4">
         <IconButton href="https://github.com/VillalobosLuciano/igniter-starter">
