@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Navbar() {
   const router = useRouter();
   return (
-    <div className="mx-auto flex max-w-7xl items-center justify-between px-4 pt-4 sm:px-6 lg:px-8 lg:pt-8">
+    <div className="mx-auto mt-6 flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
       <div className="flex">
         <div
           onClick={() => router.push("/")}
@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
       <div className="flex space-x-4">
         <IconButton href="https://github.com/VillalobosLuciano/igniter-starter">
-          <FaGithub className="h-5 w-5" />
+          <FaGithub className="h-6 w-6" />
         </IconButton>
         <ThemeSwitch />
       </div>

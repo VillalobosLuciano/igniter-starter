@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mx-auto max-w-7xl px-4 pt-10 pb-8 sm:px-6 lg:py-12 lg:px-8 lg:text-right">
+    <footer className="mx-auto mb-6 w-full max-w-7xl px-4 sm:px-6 lg:px-8 lg:text-right">
       <a
         href="https://www.igniter.studio/"
         target="_blank"

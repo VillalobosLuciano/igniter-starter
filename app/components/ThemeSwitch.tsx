@@ -18,9 +18,9 @@ const ThemeSwitch = () => {
         }
       >
         {theme === "dark" || resolvedTheme === "dark" ? (
-          <FaSun className="h-5 w-5" />
+          <FaSun className="h-6 w-6" />
         ) : (
-          <FaMoon className="h-5 w-5 p-[1px]" />
+          <FaMoon className="h-6 w-6 p-[1px]" />
         )}
       </button>
     </NoSsr>

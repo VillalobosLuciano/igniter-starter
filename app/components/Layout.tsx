@@ -10,10 +10,10 @@ interface LayoutProps {
 export default function Layout({ preview, children }: LayoutProps) {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="flex h-screen flex-col justify-between">
         <Alert preview={preview} />
         <Navbar />
-        <main>{children}</main>
+        <main className="mb-auto">{children}</main>
         <Footer />
       </div>
     </>
