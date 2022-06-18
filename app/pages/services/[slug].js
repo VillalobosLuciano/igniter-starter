@@ -36,10 +36,10 @@ export default function Service({ data = {}, preview }) {
           <>
             <article>
               <div className="mx-auto my-12 max-w-7xl sm:px-6 lg:px-8">
-                <h1 className="text-4xl font-semibold text-gray-700 dark:text-gray-300">
+                <h1 className="text-4xl font-semibold text-zinc-700 dark:text-zinc-300">
                   {service.title}
                 </h1>
-                <p className="pt-2 text-xl text-gray-700 dark:text-gray-400">
+                <p className="pt-2 text-xl text-zinc-700 dark:text-zinc-400">
                   {service.excerpt}
                 </p>
                 <ProseableText content={service.content} />

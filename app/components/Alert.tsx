@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Alert({ preview }: { preview: boolean }) {
   return (
     <div
-      className={clsx("border-b", {
-        " border-[#F37000]/50 bg-[#F37000]/5 text-black dark:text-gray-300":
+      className={clsx({
+        "border-b border-[#F37000]/50 bg-[#F37000]/5 text-black dark:text-zinc-300":
           preview,
       })}
     >

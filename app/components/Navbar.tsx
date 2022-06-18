@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
       <div className="flex space-x-4">
         <IconButton href="https://github.com/VillalobosLuciano/igniter-starter">
-          <FaGithub className="h-6 w-6" />
+          <FaGithub className="h-6 w-6 p-[1px]" />
         </IconButton>
         <ThemeSwitch />
       </div>

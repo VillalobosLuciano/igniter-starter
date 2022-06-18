@@ -51,7 +51,7 @@ export default function SanityImage(props: any) {
           .url()}
         alt={props.alt}
         className={clsx(
-          "object-cover duration-300 ease-in-out lg:object-contain",
+          "rounded-t-lg object-fill duration-300 ease-in-out",
           isLoading ? selectedFilter.loading : selectedFilter.loaded
         )}
         loading={isLoading ? "eager" : "lazy"}

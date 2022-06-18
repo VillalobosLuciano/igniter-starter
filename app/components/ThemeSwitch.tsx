@@ -1,6 +1,7 @@
 import { useTheme } from "next-themes";
 import NoSsr from "./NoSsr";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { SunIcon } from "@heroicons/react/solid";
+import { MoonIcon } from "@heroicons/react/solid";
 
 const ThemeSwitch = () => {
   const { theme, setTheme, resolvedTheme } = useTheme();
@@ -10,7 +11,7 @@ const ThemeSwitch = () => {
       <button
         aria-label="Toggle Dark Mode"
         type="button"
-        className="text-gray-400 transition-colors hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200"
+        className="text-zinc-600 transition-colors hover:text-zinc-800 dark:text-zinc-300 dark:hover:text-white"
         onClick={() =>
           setTheme(
             theme === "dark" || resolvedTheme === "dark" ? "light" : "dark"
@@ -18,9 +19,9 @@ const ThemeSwitch = () => {
         }
       >
         {theme === "dark" || resolvedTheme === "dark" ? (
-          <FaSun className="h-6 w-6" />
+          <SunIcon className="h-6 w-6" />
         ) : (
-          <FaMoon className="h-6 w-6 p-[1px]" />
+          <MoonIcon className="h-6 w-6" />
         )}
       </button>
     </NoSsr>

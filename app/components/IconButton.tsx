@@ -11,7 +11,7 @@ const IconButton: React.FC<IconButtonProps> = ({ href, children }) => {
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="text-gray-400 transition-colors hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200"
+      className="text-zinc-600 transition-colors hover:text-zinc-800 dark:text-zinc-300 dark:hover:text-white"
     >
       {children}
     </a>
