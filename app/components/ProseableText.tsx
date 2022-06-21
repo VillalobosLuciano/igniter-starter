@@ -9,9 +9,9 @@ const ptComponents = {
       }
       return (
         <>
-          <div className="relative h-80 lg:mt-24">
+          <div className="relative mx-auto mt-10 mb-4 h-56 max-w-xl lg:mt-16 lg:h-80">
             <SanityImage
-              className="h-80"
+              className=""
               filter="blur"
               src={value}
               alt={value.alt || " "}
@@ -31,7 +31,8 @@ export default function ProseableText({ content }: any) {
   return (
     <div
       className="
-      prose max-w-none
+      prose
+      max-w-none py-8
       prose-headings:mb-4 
       prose-headings:mt-8 
       prose-headings:text-zinc-700 

@@ -14,7 +14,7 @@ export default function Navbar() {
           onClick={() => router.push("/")}
           className="relative cursor-pointer"
         >
-          <Image alt="igniter logo" src={Logo} width={130} height={50} />
+          <Image alt="igniter logo" src={Logo} width={120} height={45} />
         </div>
       </div>
       <div className="flex space-x-4">
