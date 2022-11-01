@@ -55,8 +55,8 @@ export default function TOC({ content }: any) {
   const TableOfContents = (props: any) => (
     <ol>
       {props.outline.map((heading: any) => (
-        <li>
-          <a href={"#" + heading.slug}>{heading.text}</a>
+        <li key={heading.slug}>
+          <a href={`#${heading.slug}`}>{heading.text}</a>
           {heading.subheadings.length > 0 && (
             <TableOfContents outline={heading.subheadings} />
           )}

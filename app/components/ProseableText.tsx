@@ -1,6 +1,6 @@
 import { PortableText } from "@portabletext/react";
 import SanityImage from "./SanityImage";
-import TOC from "./TOC";
+// import TOC from "./TOC";
 
 const ptComponents = {
   types: {
