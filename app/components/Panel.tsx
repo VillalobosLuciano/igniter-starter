@@ -12,15 +12,7 @@ export default function Panel() {
         </h2>
         <p className="mt-4 text-lg leading-6 text-zinc-500 dark:text-zinc-400">
           You can start your new project easily and quickly using Next.js and
-          Sanity.io. See the details{" "}
-          <a
-            href="https://www.lucianov.dev/blog/next-sanity-starter"
-            target="_blank"
-            rel="noreferrer"
-            className="text-zinc-600 underline decoration-[#F37000] underline-offset-1 transition dark:text-zinc-300 dark:hover:text-zinc-200"
-          >
-            here.
-          </a>
+          Sanity.io.
         </p>
       </div>
     </div>

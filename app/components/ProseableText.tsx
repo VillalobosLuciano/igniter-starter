@@ -1,5 +1,6 @@
 import { PortableText } from "@portabletext/react";
 import SanityImage from "./SanityImage";
+import TOC from "./TOC";
 
 const ptComponents = {
   types: {
@@ -44,6 +45,7 @@ export default function ProseableText({ content }: any) {
       hover:prose-a:dark:text-orange-500
       "
     >
+      {/* <TOC content={content} /> */}
       <PortableText value={content} components={ptComponents} />
     </div>
   );
